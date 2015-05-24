@@ -23,3 +23,19 @@ Luckily, there is an alternate [restful api](https://openlibrary.org/dev/docs/ap
 that provides a separate json interface to lists. 
 Listing the 'seeds' in my Tanning list gives us this [json result](https://openlibrary.org/people/sethish/lists/OL72694L/seeds.json).
 The seed json is in `data/seeds.json`.
+
+### Readable text files
+
+There doesn't appear to be an API endpoint for fetching the raw text verions of books,
+nor a unique identifier that specifies what to fetch from IA.
+
+Text-book of Tanning leads to:
+
+    https://ia902602.us.archive.org/28/items/textbookoftannin00proc/textbookoftannin00proc_djvu.txt
+
+Which is on achive.org as:
+
+    https://archive.org/details/textbookoftannin00proc
+
+
+Searching for the `OL17085608W` value doesn't come up with any results on archive.org
